@@ -1,7 +1,10 @@
 import json
 from rich import print
-from lib import gttef #Unused. #TODO
+from lib import gttef, imports #Unused. #TODO
 import time
+
+
+imports()
 
 player_stats = {}
 player_names = {}
